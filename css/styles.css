@@ -7,6 +7,9 @@
     --main-text-color:  #434455;
     --main-dark-color: #2E2F42;
     --main-link-color: #404bbf;
+    
+    
+    
           }  
          /**
           |============================
@@ -18,22 +21,26 @@
     color: var(--main-text-color);
     background-color: var(--main-bg-white);
       }
+ 
 .link,
   a {
       text-decoration: none;
       color: currentColor;
+      
           }
-    
+        
   .list,
     ul,
     ol {
        list-style: none;
+
           }
   .btn,
     button {
         font-family: inherit;
         cursor: pointer;
         }
+    
         /**
           |============================
           | Base styles
@@ -41,6 +48,7 @@
         */
         .title {
             font-weight: 700;
+            
             font-size: 36px;
             line-height: 1.11;
             letter-spacing: 0.02em;
@@ -54,13 +62,17 @@
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--main-title-color);
+            
         }           
                  /**
                   |============================
                   | Header-section
                   |============================
                 */
-      .header {}
+      .header {
+     
+      }
+      
     .logo {
         font-family:"Raleway", sans-serif;
         text-transform: uppercase;
@@ -69,11 +81,13 @@
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: var(--main-color-web);
+        
             }
             .logo-black-title {
                 color: var(--main-title-color);
                    }
             .header-nav {
+          
             }
             .header-list {
             }
@@ -127,6 +141,7 @@
                 /* Hero-section */
                 .hero {
                     background-color: var(--main-dark-color);
+                    
                 }
                 .hero-title {
                  font-weight: 700;
