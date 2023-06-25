@@ -138,6 +138,7 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 
 
 .header-link {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -159,7 +160,7 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
 .header-address-list {
-display: flex;
+  display: flex;
   gap: var(--indent);
   --items: 2;
   --indent: 40px;
@@ -258,9 +259,17 @@ display: flex;
 gap: var(--indent);
 justify-content: space-between;
 }
-
+.profit-list-item {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+.profit-title {
+margin-bottom: 8px;
+color: var(--main-dark-color);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
 .profit-text {
-  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -316,14 +325,15 @@ padding-bottom: 120px;
 }
 
 .nav {
+}
+
+.portfolio-nav-item {
   display: flex;
   gap: var(--indent);
   justify-content: center;
   margin-bottom: 72px;
   align-items: center;
 }
-
-.portfolio-nav-item {}
 
 .portfolio-nav-button {
   padding: 12px 24px;
