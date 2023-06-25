@@ -110,17 +110,19 @@ border-bottom: 1px solid var(--main-accent-color)
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-color-web);
+  margin-right: 76px;
 }
 
 .logo-black-title {
   color: var(--main-title-color);
+  margin-right: 76px;
 }
 
 .header-nav {
 display: flex;
 align-items: center;
 }
-}
+
 
 .header-list {
 display: flex;
@@ -128,12 +130,12 @@ gap: var(--indent);
 align-items: center;
 --indent: 40px;
 }
-}
+
 
 .header-item {
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
-}
+
 
 .header-link {
   font-weight: 500;
@@ -162,12 +164,12 @@ display: flex;
   --items: 2;
   --indent: 40px;
 }
-}
+
 
 .header-address-item {
 flex-basis: calc((100% - (var(--indent)) * (var(--items) - 1)) / var(--items));
 }
-}
+
 
 .header-address-link:hover,
 .header-address-link:focus {
@@ -258,6 +260,7 @@ justify-content: space-between;
 }
 
 .profit-text {
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -317,6 +320,7 @@ padding-bottom: 120px;
   gap: var(--indent);
   justify-content: center;
   margin-bottom: 72px;
+  align-items: center;
 }
 
 .portfolio-nav-item {}
