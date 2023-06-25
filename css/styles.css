@@ -255,12 +255,11 @@ padding-bottom: 120px;
 }
 
 .profit-list {
-width: calc((100% - 72px) / 4);
 display: flex;
 gap: var(--indent);
 justify-content: space-between;
 }
-.profit-list-item {
+.profit-item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 .profit-title {
