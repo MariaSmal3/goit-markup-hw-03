@@ -325,13 +325,11 @@ justify-content: space-between;
 text-align: center;
 padding-top: 96px;
 padding-bottom: 120px;
+display: flex;
+gap: var(--indent);
+justify-content: center;
+margin-bottom: 72px;
 }
-.portfolio-link {
-    display: flex;
-    gap: var(--indent);
-    justify-content: center;
-    margin-bottom: 72px;
-  }
 .nav {
   display: flex;
   align-items: center;
