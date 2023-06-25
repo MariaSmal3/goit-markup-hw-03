@@ -326,14 +326,7 @@ text-align: center;
 padding-top: 96px;
 padding-bottom: 120px;
 }
-.portfolio-list {
-    display: flex;
-    gap: var(--indent);
-    justify-content: center;
-    margin-bottom: 72px;
-  }
-  .portfolio-item {
-  }
+
 .nav {
   display: flex;
   align-items: center;
@@ -369,6 +362,10 @@ padding-bottom: 120px;
 }
 
 .portfolio-list {
+  display: flex;
+  gap: var(--indent);
+  justify-content: center;
+  margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
