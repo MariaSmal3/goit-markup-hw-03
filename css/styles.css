@@ -326,12 +326,13 @@ text-align: center;
 padding-top: 96px;
 padding-bottom: 120px;
 }
-
 .portfolio-nav {
-  display: flex;
-  gap: var(--indent);
-  justify-content: center;
-  margin-bottom: 72px;
+    display: flex;
+    gap: var(--indent);
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+.nav {
   display: flex;
   align-items: center;
 }
