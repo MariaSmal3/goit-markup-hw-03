@@ -101,8 +101,10 @@ border-bottom: 1px solid var(--main-accent-color)
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
@@ -110,12 +112,11 @@ border-bottom: 1px solid var(--main-accent-color)
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-color-web);
-  margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-black-title {
   color: var(--main-title-color);
-  margin-right: 76px;
 }
 
 .header-nav {
@@ -142,6 +143,7 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  display: block;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
@@ -282,10 +284,8 @@ padding-bottom: 120px;
 }
 
 .projects-list {
-  width: calc((100% - 48px) / 3);
   display: flex;
   gap: var(--indent);
-  justify-content: space-between;
 }
 
 /* Our-team-section */
@@ -342,11 +342,7 @@ padding-bottom: 120px;
 }
 
 .portfolio-nav-item {
-  display: flex;
-  gap: var(--indent);
-  justify-content: center;
-  margin-bottom: 72px;
-  align-items: center;
+
 }
 
 .portfolio-nav-button {
@@ -374,10 +370,10 @@ padding-bottom: 120px;
   display: flex;
   gap: var(--indent);
   justify-content: center;
-  margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  
 }
 
 .portfolio-item {
@@ -387,10 +383,11 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
     padding: 32px 16px;
     border: 1px solid var(--main-accent-color);
     border-top: none;
+    text-align: left;
   }
 
 .portfolio-text {
-  text-align: center;
+  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -407,9 +404,16 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
   padding-bottom: 100px;
   background-color: var(--main-dark-color);
 }
-.footer .logo {
-  display: inline-block;
-  margin-bottom: 16px;
+.footer-logo {
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color-web);
+    display: inline-block;
 }
 .footer-logo-light {
   color: var(--main-cloud);
